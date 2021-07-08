@@ -1,0 +1,32 @@
+.button {
+    min-width: 6rem;
+    padding: .5em 2em;
+    margin: 0 .5rem;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background: #8dca8a;
+    color: white;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    transition-duration: .2s;
+    z-index: 2;
+}
+
+.button:hover {
+    box-shadow: none;
+    border-color: #c8c8c8;
+    cursor: pointer;
+}
+
+.negative {
+    background: #df6868;
+    color: white;
+}
+
+.neutral {
+    background: white;
+    color: inherit;
+}
+
+.hide {
+    opacity: 0;
+}

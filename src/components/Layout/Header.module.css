@@ -1,0 +1,32 @@
+.header {
+    background-color: #fff;    
+    padding: .7rem 2rem;
+}
+
+.logo {
+    display: inline-block;
+    padding: .2rem;    
+    vertical-align: top;
+}
+
+.name {
+    display: inline-block;
+    margin-left: .3rem;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: .7rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 1rem;
+    }
+  }

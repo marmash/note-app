@@ -1,0 +1,40 @@
+.note-list {
+  margin: 2rem auto;
+  max-width: 80rem;
+  font-size: 0.8rem;
+  list-style: none;
+  padding: 0 1rem;
+  animation: notes-appear 1s ease-out forwards;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.message {
+  margin: 4rem auto;
+  animation: notes-appear .5s ease-out forwards;
+}
+
+@keyframes notes-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .note-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .note-list {
+    grid-template-columns: 1fr;
+  }
+}

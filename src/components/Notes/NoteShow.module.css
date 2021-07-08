@@ -1,0 +1,15 @@
+.content {
+  height: 70vh;
+  overflow: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  width: 100%;
+  background: white;
+  text-align: right;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
